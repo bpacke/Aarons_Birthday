@@ -9,8 +9,8 @@ class Friend:
 
 friends = [Friend('Aaron', date(1993,03,17), 'jBm_6SKAML8'), Friend('Ben', date(1994,04,16), 'RHw50kjFuoA')]
 
-# t = date.today()
-t = date(2017,03,18)
+t = date.today()
+
 for f in friends:
 	if t.month == f.dob.month and t.day == f.dob.day:
 		print 'Happy Birthday, %s!' % f.name
